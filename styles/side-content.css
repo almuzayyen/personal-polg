@@ -1,0 +1,32 @@
+.side-content {
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/4;
+  grid-row: 1/4;
+  border: solid rgb(15, 15, 15) 3px;
+  margin: 0.5rem;
+}
+#author-id {
+  font-weight: bolder;
+}
+.pofile-img {
+  height: 100%;
+  margin: 0.5rem;
+}
+#pofile-img-id {
+  width: 100%;
+  height: 100%;
+  margin: 0.5;
+}
+.profile-about {
+  margin: 0.5rem;
+  height: 40%;
+}
+.profile-social {
+  display: flexbox;
+
+  gap: 3rem;
+  flex-direction: column;
+  height: 10%;
+  margin: 0.5rem;
+}

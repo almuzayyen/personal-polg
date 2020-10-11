@@ -1,0 +1,76 @@
+.card {
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  border: solid rgb(15, 15, 15) 3px;
+  margin: 3rem;
+
+  height: 30rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5), 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.tow {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+.three {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.four {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.head-card2,
+.head-card3,
+.head-card1 {
+  height: 10vh;
+  margin: 1rem;
+}
+.img-card1,
+.img-card2,
+.img-card3 {
+  height: 30vh;
+}
+
+.content-card1,
+.content-card2,
+.content-card3 {
+  height: 30vh;
+  margin: 1rem;
+  padding-top: 1rem;
+}
+.footer-card1,
+.footer-card2,
+.footer-card3 {
+  height: 10vh;
+}
+
+.footer-card3,
+button {
+  color: #a50606;
+}
+.footer-card3 button {
+  color: #a50606;
+}
+.footer-card1 button {
+  color: #a50606;
+}
+#id-card1,
+#id-card2,
+#id-card3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}

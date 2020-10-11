@@ -1,0 +1,10 @@
+.footer {
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.1rem;
+  justify-content: center;
+  color: #a50606;
+  height: 8vh;
+  background-color: #131c27;
+}
